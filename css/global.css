@@ -1,0 +1,83 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  /* Base */
+  --color-bg: #fff8ec;
+  --color-bg-soft: #fff2df;
+  --color-surface: #ffffff;
+  --color-surface-warm: #fffaf2;
+
+  /* Text */
+  --color-text: #25233f;
+  --color-text-soft: #5f6073;
+  --color-text-muted: #8a8b9b;
+  --color-heading: #4a4568;
+
+  /* Brand colors */
+  --color-primary: #ff7043;
+  --color-primary-dark: #f25a2a;
+  --color-primary-soft: #ffe3d5;
+
+  --color-accent: #ffc34d;
+  --color-accent-soft: #fff1c8;
+
+  --color-green: #79b85f;
+  --color-green-soft: #e7f5df;
+
+  --color-mint: #68c7ad;
+  --color-mint-soft: #def5ee;
+
+  --color-pink: #ff9f91;
+  --color-pink-soft: #ffe4de;
+
+  --color-purple: #9b7bd8;
+  --color-purple-soft: #efe7ff;
+
+  /* Borders and shadows */
+  --color-border: #f1e4d3;
+  --shadow-card: 0 16px 40px rgba(89, 65, 38, 0.1);
+  --shadow-soft: 0 10px 25px rgba(89, 65, 38, 0.08);
+
+  /* Radius */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 32px;
+  --radius-xl: 44px;
+}
+
+body {
+  font-family: "Nunito", Arial, sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
